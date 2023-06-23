@@ -1,0 +1,36 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    font-weight: 100;
+}
+
+main{
+    display: grid;
+    grid-template-rows: repeat(9, 80px);
+}
+
+section{
+
+}
+
+.dos-btns{
+    display: grid;
+    grid-template-columns: 50% 0%;
+}
+
+.tres-btns{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cuatro-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abajoDeDisabled{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
